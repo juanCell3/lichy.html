@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo Lissy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            animation: changeColor 5s infinite alternate; /* Animación para cambiar el color de fondo */
+        }
+
+        @keyframes changeColor {
+            0% { background-color: #ff0000; } /* Rojo */
+            25% { background-color: #00ff00; } /* Verde */
+            50% { background-color: #0000ff; } /* Azul */
+            75% { background-color: #ffff00; } /* Amarillo */
+            100% { background-color: #ff00ff; } /* Magenta */
+        }
+
+        #heart {
+            font-size: 48px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="heart">
+        <p>Te amo Lissy</p>
+        <span>&#10084;</span> <!-- Código del corazón -->
+    </div>
+</body>
+</html>
